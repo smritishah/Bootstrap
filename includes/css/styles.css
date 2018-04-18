@@ -1,0 +1,263 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Smriti Shah
+Updated: August 2017
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+body {
+   text-align: justify;
+}
+#siteName {
+   font-family: 'Joti One';
+   font-size: 30px;
+   color:-webkit-linear-gradient(red,black);   
+}
+
+#features {
+   text-align: center;
+   padding-top: 15px;
+}
+#features p {
+   text-align: justify;
+}
+#features img {
+   margin: 0 0 20px;
+   height:225px;
+   width:225px;
+}
+#inputMessage {
+   margin-bottom: 15px;
+}
+#submitReview {
+   margin-left: 10px;
+}
+#teamPic {
+   margin:0 20px 10px 0;
+   padding-left: 10px;
+   height:150px;
+   width:150px;
+}
+footer {
+   background: #333;
+   color: #eee;
+   font-size: 15px;
+   padding: 20px;
+}
+#navLinks {
+   padding-top: 12px;
+}
+ul.unstyled {
+   list-style: none;
+   padding: 0;
+}
+ul.unstyled li {  
+   display:inline;
+}
+ul.social {
+   list-style-type: none;
+}
+ul.social li {
+   display: inline;
+}
+#follow img {
+   /*opacity: 1;
+   vertical-align: middle;*/
+   padding-top: 10px;
+   padding-left: 15px;
+   height:35px;
+   width:35px;
+}
+#follow h6 {
+   padding-left: 45px;
+}
+ul.social li:hover{
+   cursor:pointer;
+}
+
+/*Go to Top Button Styling*/
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    border: none;  /*Remove borders*/ 
+    cursor: pointer; /* Add a mouse pointer on hover */
+    border-radius: 30px; /* Rounded corners */
+}
+#myBtn img {
+   width:30px;
+   height:30px;
+}
+#myBtn:hover {
+    background-color: #555;  /*Add a dark-grey background on hover*/ 
+}
+#myModal2 h4, #myModal2 p,#myModal2 label {
+   color: black;
+}
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+body {
+   -webkit-font-smoothing: antialiased;
+   text-rendering: optimizelegibility;
+}
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+#logo {
+   width:50px;
+   height:47px;
+   margin-top: 0; 
+   border-radius: 50%;
+}
+   
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+#myCarousel {
+   margin-top: 60px;
+}  
+
+.carousel-caption {
+   font-size: 18px;
+}
+
+.carousel-caption h4 {
+   font-size: 24px;
+}
+
+#myCarousel .item { height: 400px; }
+
+#slide1 {
+   background: url('../../images/CHM1.jpg') top center no-repeat;
+}
+
+#slide2 {
+   background: url("../../images/CHM2.jpg") top center no-repeat;
+}
+
+#slide3 {
+   background: url('../../images/CHM3.jpg') top center no-repeat;
+}
+
+#slide4 {
+   background: url('../../images/CHM4.jpg') top center no-repeat;
+}
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+@media (max-width: 768px) {
+
+   #follow h6 {
+      padding-left: 0;
+   }
+   #follow img {
+      margin-left: 0;
+   }
+   
+   #myCarousel .item { height: 310px; }
+   
+   #slide1 {
+   background: url('../../images/CHS1.jpg') top center no-repeat;
+   }
+
+   #slide2 {
+      background: url('../../images/CHS2.jpg') top center no-repeat;
+   }
+
+   #slide3 {
+      background: url('../../images/CHS3.jpg') top center no-repeat;
+   }
+
+   #slide4 {
+      background: url('../../images/CHS4.jpg') top center no-repeat;
+   }
+   
+   .carousel-caption {
+      font-size: 16px;
+   }
+   
+   .carousel-caption h4 {
+      font-size: 20px;
+   }
+   
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+#myCarousel .item { height: 500px; }
+   
+#slide1 {
+   background: url('../../images/CHL1.jpg') top center no-repeat;
+}
+
+#slide2 {
+   background: url('../../images/CHL2.jpg') top center no-repeat;
+}
+
+#slide3 {
+   background: url('../../images/CHL3.jpg') top center no-repeat;
+}
+
+#slide4 {
+   background: url('../../images/CHL4.jpg') top center no-repeat;
+}
+
+}
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+   
+   #myCarousel .item { height: 310px; }
+   
+   #slide1 {
+   background: url('../../images/CHS1.jpg') top center no-repeat;
+   }
+
+   #slide2 {
+      background: url('../../images/CHS2.jpg') top center no-repeat;
+   }
+
+   #slide3 {
+      background: url('../../images/CHS3.jpg') top center no-repeat;
+   }
+
+   #slide4 {
+      background: url('../../images/CHS4.jpg') top center no-repeat;
+   }
+   
+   .carousel-caption {
+      font-size: 16px;
+   }
+   
+   .carousel-caption h4 {
+      font-size: 20px;
+   }
+   
+}
